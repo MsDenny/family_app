@@ -23,7 +23,7 @@ jobs:
           channel: 'stable'
 
       - name: Auto Create Native Android Project
-        run: flutter create . --platforms=android --org com.example.family_app
+        run: flutter create . --platforms=android --org com.example.familyapp
 
       - name: Install dependencies
         run: flutter pub get
